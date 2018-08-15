@@ -1,25 +1,3 @@
-function func_box(){
-    var box1 = document.querySelector('.box1');
-    setTimeout(function(){
-        box1.style.visibility = 'visible';
-    },800);
-    var box2 = document.querySelector('.box2');
-    setTimeout(function(){
-        box2.style.visibility = 'visible';
-    },900);
-    var box3 = document.querySelector('.box3');
-    setTimeout(function(){
-        box3.style.visibility = 'visible';
-    },1000);
-    var box4 = document.querySelector('.box4');
-    setTimeout(function(){
-        box4.style.visibility = 'visible';
-    },1000);
-}
-
-func_box();
-
-
 document.querySelector('.img1').addEventListener('mouseenter',function(e){
     e.preventDefault();
 
